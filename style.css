@@ -1,0 +1,238 @@
+body {
+    font-family: sans-serif;
+
+}
+
+header {
+    height: 200px;
+    width: 102%;
+    background-image: linear-gradient(rgb(194, 194, 255), rgb(192, 248, 248), rgb(195, 241, 226));
+    border-radius: 200px;
+
+}
+
+header h1 {
+    color: rgb(182, 151, 255);
+    text-align: center;
+    position: relative;
+    top: 80px;
+    transition: 0.5s;
+}
+
+div {
+    height: 180px;
+    width: 100%;
+}
+
+header h1:hover {
+    transition: 1s;
+    color: rgb(211, 43, 226);
+}
+
+body {
+    background-image: linear-gradient(rgb(230, 200, 255), rgb(255, 255, 255), rgb(230, 200, 255));
+}
+
+.gelatine {
+    ;
+}
+
+@keyframes gelatine {
+
+    from,
+    to {
+        transform: scale(1, 1);
+    }
+
+    25% {
+        transform: scale(0.1, 3);
+    }
+
+    50% {
+        transform: scale(10, 0.9);
+    }
+
+    75% {
+        transform: scale(0.95, 10);
+    }
+}
+
+.roblox:hover {
+    animation: gelatine 0.5s infinite;
+}
+
+.fisch {
+    margin-top: 100px;
+    position: relative;
+    top: -70px;
+    right: -25px;
+}
+
+.fisch:hover {
+transition: 1s ease-out;
+} 
+.fisch2 {
+    display: inline-block;
+    width: 40%;
+    font-size: 0px;
+    opacity: 0;
+    position: relative;
+    top: -50px;
+    right: -25px;
+}
+.fischdiv {
+    margin-top: 100px;
+    height: 360px;
+    width: 360px;
+    border-radius: 40px;
+    transition:0.5s ease-in;
+}
+.fischdiv:hover {
+    width: 750px;
+    transition: 1s ease-out;
+}
+.fischdiv:hover .textfisch {
+    transition: 2s;
+    opacity: 1;
+    font-size: 27px;
+}
+
+span {
+    font-family: ;
+    font-weight: 500;
+}
+.forsaken {
+background-image: linear-gradient(rgb(173, 12, 12),rgb(100, 2, 2));
+}
+
+.fisch1 {
+    background-image: linear-gradient(rgb(137, 137, 253), rgb(88, 88, 206));
+}
+    .forsaken2 {
+    display: inline-block;
+    width: 40%;
+    font-size: 0px;
+    opacity: 0;
+    position: relative;
+    top: -80px;
+    right: -25px;
+    }
+    span:hover {
+        transition: 3s;
+        color: blue;
+    }
+
+    .fischtext {
+        transition: 0.5s;
+    }
+
+        .obby2 {
+    display: inline-block;
+    width: 40%;
+    font-size: 0px;
+    opacity: 0;
+    position: relative;
+    top: -90px;
+    right: -25px;
+    }
+
+.obby {
+    background-image: linear-gradient(rgb(48, 127, 255), rgb(36, 97, 196));}
+
+            .combat2 {
+    display: inline-block;
+    width: 40%;
+    font-size: 0px;
+    opacity: 0;
+    position: relative;
+    top: -75px;
+    right: -25px;
+    }
+
+    .combat {
+    background-image: linear-gradient(rgb(238, 62, 62), rgb(173, 55, 55));}
+
+    .IA {
+    background-image: linear-gradient(rgb(0, 26, 36), rgb(8, 142, 196));}
+
+    .IA2 {
+    display: inline-block;
+    width: 40%;
+    font-size: 0px;
+    opacity: 0;
+    position: relative;
+    top: -75px;
+    right: -25px;
+    }
+
+     .smile:hover {
+font-size: 0;
+     }
+     .smile:hover.nosmile {
+        font-size: 10;
+     }
+     .end {
+        background-image: linear-gradient(rgb(142, 88, 192), rgb(205, 152, 255)) ;\
+     }
+     .endt {
+        text-align: center;
+     }
+     .animationbymeomg:hover {
+        animation-name: sigma;
+        transition: 2s;
+  animation-duration: 1s;
+}
+     @keyframes sigma {
+  25% {
+        transform: scale(3, 2);
+    }
+    40% {
+        position: relative;
+        top: 10px;
+    }
+    50% {
+        rotate: 50deg;
+        border-radius: 1000px;
+        height: 25px;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    80% {
+        transform: scale(2, 4);
+        
+        height: 100px;
+
+    }
+  100% {width: 400px;
+  box-shadow: 10px 25px 25px rgb(255, 0, 0);
+  opacity: 0;
+  position: relative;
+  top: 100px;
+  }
+     }
+     .animationbymeomg {
+        position: relative;
+        top: -100px;
+     }
+     .gnome {
+        position: relative;
+        left: 450px;
+     }
+     .gnome:hover {
+        transition: 20s;
+        height: 100000000px;
+     }
+
+     .BT2 {
+    display: inline-block;
+    width: 40%;
+    font-size: 0px;
+    opacity: 0;
+    position: relative;
+    top: -90px;
+    right: -25px;
+    }
+
+    .BT {
+    background-image: linear-gradient(rgb(48, 48, 48), rgb(90, 1, 1));}
