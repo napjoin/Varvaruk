@@ -26,15 +26,15 @@ div {
 
 header h1:hover {
     transition: 1s;
-    color: rgb(211, 43, 226);
+    animation: rainbow 1s infinite;
 }
-
 body {
     background-image: linear-gradient(rgb(230, 200, 255), rgb(255, 255, 255), rgb(230, 200, 255));
 }
 
 .gelatine {
-    ;
+    animation-name: gelatine;
+    animation-duration: 1s;
 }
 
 @keyframes gelatine {
@@ -236,3 +236,24 @@ font-size: 0;
 
     .BT {
     background-image: linear-gradient(rgb(48, 48, 48), rgb(90, 1, 1));}
+
+    @keyframes rainbow {
+        0% {
+            color: red;
+        }
+        20% {
+            color: orange;
+        }
+        40% {
+            color: yellow;
+        }
+        60% {
+            color: green;
+        }
+        80% {
+            color: blue;
+        }
+        100% {
+            color: purple;
+        }
+    }
